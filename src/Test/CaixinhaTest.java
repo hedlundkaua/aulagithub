@@ -9,7 +9,8 @@ public class CaixinhaTest {
         Scanner sc = new Scanner(System.in);
         Person person = new Person();
 
-
+        person.setAmount(20.00);
+        System.out.print(person.getAmount());
 
         sc.close();
     }
